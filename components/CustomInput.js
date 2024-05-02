@@ -4,11 +4,12 @@ export class CustomInput extends HTMLElement{
         this.attachShadow({mode: "open"});
         const type = this.getAttribute("type") || "text";
         const placeholder = this.getAttribute("placeholder") || "";
-        this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./components/customInput.css" />
-            <input type="${type}" placeholder="${placeholder}">
-            <p class="error-message"></p>
-        `;
+        this.shadowRoot.innerHTML = ``;
+        // `
+        //     <link rel="stylesheet" href="./components/customInput.css" />
+        //     <input type="${type}" placeholder="${placeholder}">
+        //     <p class="error-message"></p>
+        // `;
     }
 
     set error(val) {

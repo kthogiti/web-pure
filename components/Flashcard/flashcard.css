@@ -15,6 +15,12 @@ div {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     transition: box-shadow .25s;
+    background-color: aqua;
+}
+
+span {
+    color: blueviolet;
+    font-size: 5em;
 }
 
 h1 {

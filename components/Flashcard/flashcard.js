@@ -5,8 +5,10 @@ export class FlashCard extends HTMLElement{
         this.attachShadow({mode: "open"});
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./components/Flashcard/flashcard.css" />
+        <div>
         <h1>Happy Birthday </h1>
         <span>${employeeName}!!!</span>
+        </div>
         `;
     }
 }
